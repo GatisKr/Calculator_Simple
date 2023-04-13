@@ -1,2 +1,2 @@
 # Calculator_Simple
- Simple callculator program
+ Simple calculator program
