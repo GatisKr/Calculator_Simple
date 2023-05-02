@@ -41,6 +41,16 @@ while True:
         
         elif choice == '4':
             print(num1, "/", num2, "=", divide(num1, num2))
-        break
-else:
-    print("Invalid input")
+        
+        else:
+            print("Invalid input")
+            continue
+
+        # Ask user if they want to perform another calculation
+        another_calculation = input("Do you want to perform another calculation? (yes/no): ")
+
+        # Check user's answer and restart the loop or exit
+        if another_calculation.lower() == "yes":
+            continue
+        else:
+            break
